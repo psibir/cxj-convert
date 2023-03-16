@@ -1,0 +1,63 @@
+
+# cxj-convert
+A CSV/XLS/XLSX/JSON File Converter
+
+## Description
+
+
+
+This is a Python script that allows you to convert files between CSV, XLS, XLSX, and JSON formats.
+
+
+## Business Use Case
+
+
+This tool can be useful in various scenarios where file format conversion is required. For example:
+
+**Reduce Format Friction:** Data in CSV format that needs to be shared with external stakeholders who prefer XLS or XLSX formats. With this tool, the company can easily convert the files to the desired format without the need for manual data entry or copy-pasting.
+
+**Data Integration:** JSON is often used in web-based applications and APIs, whereas CSV is a common format for storing data in spreadsheets. If you need to integrate data from a CSV file into a web application or service, you may need to convert it to JSON.
+
+## Installation
+
+This script requires Python 3.x.
+
+To install necessary dependencies, run the command:
+
+
+```
+pip install requirements.txt
+```
+
+
+## How to Run
+
+To use this script, you can run the following command:
+
+
+```
+python cxj-convert.py [-h] -i INPUT -o OUTPUT -f FORMAT [-d DELIMITER] [-s SHEET] [-m] [-l LOCATION] [-n NAMES [NAMES ...]] [-b]
+```
+
+
+The INPUT, OUTPUT, and FORMAT are required; all other arguments are optional.
+
+
+Here is a breakdown of the available options:
+
+```
+-h, --help             Show help message and exit.
+-i, --input            Input file name or comma-separated list of files to convert.
+-o, --output           Output file name.
+-f, --format           Output file format. Choose from csv, xls, xlsx, or json.
+-d, --delimiter        Delimiter used in the CSV file. Default is ','.
+-s, --sheet            Name of sheet in the Excel file. Default is 'Sheet1'.
+-m, --merge            Merge multiple CSV files into a single file.
+-l, --location         Location of the input/output file(s).
+-n, --names            Names of the sheets in the Excel file. Use this option when converting to Excel format and more than one sheet is needed.
+-b, --batch            Batch convert multiple files in a folder.
+```
+
+
+
+
