@@ -22,13 +22,13 @@ This tool can be useful in various scenarios where file format conversion is req
 1. Use the command `git clone`, then paste the link from this page, or copy the command and link from below:
 
 
-        git clone "https://github.com/psibir/cxj-converter.git"
+        git clone "https://github.com/psibir/cxj-convert.git"
         
         
-2. Change directory into the the new `rss-reader` directory:
+2. Change directory into the the new `cxj-convert` directory:
 
 
-        cd ~/cxj-converter
+        cd ~/cxj-convert
 
 
 3. Create a virual environment using the `venv` command:
