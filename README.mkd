@@ -46,9 +46,9 @@ This tool can be useful in various scenarios where a specific file format is req
 5. Install requirements using:
 
 
-```
-pip install -r requirements.txt
-```
+
+        pip install -r requirements.txt
+
 
 
 ## Usage
@@ -56,9 +56,9 @@ pip install -r requirements.txt
 To use this script, you can run the following command:
 
 
-```
-python cxj-convert.py [-h] -i INPUT -o OUTPUT -f FORMAT [-d DELIMITER]
-```
+
+        python cxj-convert.py [-h] -i INPUT -o OUTPUT -f FORMAT [-d DELIMITER]
+
 
 
 The INPUT, OUTPUT, and FORMAT are required; the DELIMITER argument is optional.
