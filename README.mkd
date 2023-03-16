@@ -18,15 +18,36 @@ This tool can be useful in various scenarios where file format conversion is req
 
 **Data Integration:** JSON is often used in web-based applications and APIs, whereas CSV is a common format for storing data in spreadsheets. If you need to integrate data from a CSV file into a web application or service, you may need to convert it to JSON.
 
-## Installation
+# Usage
+1. Use the command `git clone`, then paste the link from this page, or copy the command and link from below:
 
-This script requires Python 3.x.
 
-To install necessary dependencies, run the command:
+        git clone "https://github.com/psibir/cxj-converter.git"
+        
+        
+2. Change directory into the the new `rss-reader` directory:
+
+
+        cd ~/cxj-converter
+
+
+3. Create a virual environment using the `venv` command:
+        
+        
+        python3 -m venv .venv
+        
+        
+4. Activate the virtual environment using the `source` command:
+
+
+        source .venv/bin/activate
+
+
+5. Install requirements using:
 
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 
@@ -51,11 +72,6 @@ Here is a breakdown of the available options:
 -o, --output           Output file name.
 -f, --format           Output file format. Choose from csv, xls, xlsx, or json.
 -d, --delimiter        Delimiter used in the CSV file. Default is ','.
--s, --sheet            Name of sheet in the Excel file. Default is 'Sheet1'.
--m, --merge            Merge multiple CSV files into a single file.
--l, --location         Location of the input/output file(s).
--n, --names            Names of the sheets in the Excel file. Use this option when converting to Excel format and more than one sheet is needed.
--b, --batch            Batch convert multiple files in a folder.
 ```
 
 
