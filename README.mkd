@@ -57,11 +57,11 @@ To use this script, you can run the following command:
 
 
 ```
-python cxj-convert.py [-h] -i INPUT -o OUTPUT -f FORMAT [-d DELIMITER] [-s SHEET] [-m] [-l LOCATION] [-n NAMES [NAMES ...]] [-b]
+python cxj-convert.py [-h] -i INPUT -o OUTPUT -f FORMAT [-d DELIMITER]
 ```
 
 
-The INPUT, OUTPUT, and FORMAT are required; all other arguments are optional.
+The INPUT, OUTPUT, and FORMAT are required; the DELIMITER argument is optional.
 
 
 Here is a breakdown of the available options:
