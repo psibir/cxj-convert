@@ -18,7 +18,7 @@ This tool can be useful in various scenarios where file format conversion is req
 
 **Data Integration:** JSON is often used in web-based applications and APIs, whereas CSV is a common format for storing data in spreadsheets. If you need to integrate data from a CSV file into a web application or service, you may need to convert it to JSON.
 
-# Usage
+## Installation
 1. Use the command `git clone`, then paste the link from this page, or copy the command and link from below:
 
 
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ```
 
 
-## How to Run
+## Usage
 
 To use this script, you can run the following command:
 
