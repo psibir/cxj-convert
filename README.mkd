@@ -12,7 +12,7 @@ This is a Python script that allows you to convert files between CSV, XLS, XLSX,
 ## Business Use Case
 
 
-This tool can be useful in various scenarios where file format conversion is required. For example:
+This tool can be useful in various scenarios where a specific file format is required. For example:
 
 **Reduce Format Friction:** Data in CSV format that needs to be shared with external stakeholders who prefer XLS or XLSX formats. With this tool, the company can easily convert the files to the desired format without the need for manual data entry or copy-pasting.
 
